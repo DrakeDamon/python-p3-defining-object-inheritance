@@ -1,4 +1,6 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"  # This is what the test for Car expects
